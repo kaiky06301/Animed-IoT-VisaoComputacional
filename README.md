@@ -1,6 +1,20 @@
 # Animed - Reconhecimento de Pets (Visão Computacional)
 
-Protótipo de **Visão Computacional** para o Challenge FIAP 2026 — disciplina **Disruptive Architectures: IoT, IoB & Generative IA (1ª Sprint)**.
+Repositório da disciplina **Disruptive Architectures: IoT, IoB & Generative IA** — Challenge FIAP 2026.
+
+## 📌 Entrega da Sprint 3 — Componente de Inteligência Artificial
+
+A entrega desta sprint é a **definição e documentação do componente de IA** da solução Animed:
+
+- 📄 **[DOCUMENTO_IA_SPRINT3.md](DOCUMENTO_IA_SPRINT3.md)** — problema de negócio, abordagem escolhida e justificativa, dados necessários, fluxo de dados e arquitetura de integração.
+- 🎬 **[ROTEIRO_PITCH_SPRINT3.md](ROTEIRO_PITCH_SPRINT3.md)** — roteiro do vídeo pitch.
+- ▶️ **Vídeo pitch:** _(link a incluir)_
+
+O restante deste README descreve o **protótipo de visão computacional** entregue na Sprint 1/2, que na arquitetura da Sprint 3 passa a atuar como canal de entrada automática de dados (check-in por câmera).
+
+---
+
+## 🔬 Protótipo de Visão Computacional (Sprint 1/2)
 
 Projeto **Animed** — solução para o Challenge da empresa parceira **Clyvo VET**.
 
@@ -54,10 +68,12 @@ Rodando sobre `exemplos/pet.jpg`, o modelo reconhece o pet e gera a imagem anota
 ## 🗂️ Estrutura
 ```
 .
-├── detectar_pets.py     # script principal de detecção
-├── requirements.txt     # dependências
-├── exemplos/            # imagens de entrada (pet.jpg)
-├── resultados/          # imagens anotadas (saída/evidência)
+├── DOCUMENTO_IA_SPRINT3.md    # entrega da Sprint 3 — componente de IA
+├── ROTEIRO_PITCH_SPRINT3.md   # roteiro do vídeo pitch
+├── detectar_pets.py           # script de detecção (Sprint 1/2)
+├── requirements.txt           # dependências
+├── exemplos/                  # imagens de entrada (pet.jpg)
+├── resultados/                # imagens anotadas (saída/evidência)
 └── README.md
 ```
 
