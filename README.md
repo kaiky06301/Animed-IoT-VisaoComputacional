@@ -2,6 +2,12 @@
 
 Repositório da disciplina **Disruptive Architectures: IoT, IoB & Generative IA** — Challenge FIAP 2026.
 
+## 🚀 Entrega da Sprint 4 — implementação
+
+O componente de IA definido na Sprint 3 foi **implementado e integrado** no repositório **https://github.com/kaiky06301/animed-ia**: classificador treinado (scikit-learn), LLM redigindo a mensagem ao tutor, serviço FastAPI com a fila de cuidado preventivo lendo a API do Animed na Azure e 23 testes automatizados.
+
+---
+
 ## 📌 Entrega da Sprint 3 — Componente de Inteligência Artificial
 
 A entrega desta sprint é a **definição e documentação do componente de IA** da solução Animed:
